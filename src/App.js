@@ -1,7 +1,6 @@
 import React from "react";
 import './App.css';
 import Home from './Home';
-import SearchPage from './pages/SearchPage';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,12 +10,11 @@ import {
 
 function App() {
   return (
-    // BEM
     <div className="App">
       <Router>
         <Switch>
           <Route path="/search">
-            <SearchPage />
+            <h1>Done</h1>
           </Route>
           <Route path="/">
             <Home />
